@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Mars;
+    src: url("../fonts/newmars.ttf") format("opentype");
+}
+
+body{
+  font-family: Mars;
+  padding-top:150px;
+  background: #f0e7e7;
+}
+
+/*Elements Wrapper*/
+.container > .wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/*Navigation*/
+#nav {
+  position:fixed;
+  top:0;
+  width:100%;
+  background:#c1440e;
+  color: #f0e7e7;
+  z-index: 2;
+}
+
+/*input*/
+.form-control {
+  color: black;
+  margin-top: 15px;
+}
+
+
+/*Buttons*/
+.btn-default {
+  background: transparent;
+  color: white;
+}
+#curiosityPrevBtn, #curiosityNextBtn {
+  visibility: hidden;
+  margin: 0 10px;
+}
+
+/*image wrapper*/
+a > .wrapper {
+  background: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+a > .wrapper > p, a > .wrapper > span  {
+  padding-left: 10px;
+}
+
+/*Images*/
+.nasaImg {
+  padding:0 0 3%;
+  width:100%;
+  height:250px;
+}
